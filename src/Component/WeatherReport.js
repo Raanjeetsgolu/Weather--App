@@ -33,8 +33,8 @@ const WeatherReport = () => {
     }
   };
   useEffect(() => {
-    // eslint-disable-next-line
     getinfo();
+    // eslint-disable-next-line
   }, []);
   return (
     <div className="boss">
