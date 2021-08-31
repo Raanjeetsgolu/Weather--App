@@ -1,0 +1,67 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.boss {
+  padding: 20px;
+  margin: 20px;
+  background-color: grey;
+  display: table;
+  align-items:center;
+}
+.datainfo1 {
+  background-color: whitesmoke;
+}
+.child {
+  display: flex;
+  justify-content: space-between;
+}
+.weather {
+  display: table;
+  align-items: center;
+  font-size: 50px;
+}
+.wi {
+  color: skyblue;
+}
+.invalue {
+  height: 40px;
+  border-radius: 50px 50px 50px 50px;
+  font-size: 20px;
+}
+.btn {
+  background-color: red;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weatherinfo {
+  display: flex;
+  justify-content: space-around;
+}
+.wi {
+  font-size: 30px;
+}
+#logoq {
+  font-size: 64px;
+}
+
+.child {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  flex-wrap: wrap;
+}
+.weather {
+  display: grid;
+  place-items:center;
+}
+
+#logoq {
+  margin-top: 5px;
+  
+}
+#heading{
+  margin-top: 10px;
+  margin-bottom:-5px;
+}
