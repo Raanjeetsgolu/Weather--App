@@ -3,13 +3,14 @@ import Card from "./Card";
 import "./style.css";
 
 const WeatherReport = () => {
-  const [inputValue, setinputValue] = useState("Ballia");
+  const [inputValue, setinputValue] = useState("Kolkata");
   const [info, setinfo] = useState({});
   const getinfo = async () => {
     try {
-      let url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${process.env.REACT_APP_API_KEY}`;
+      let url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=8957f707b5b79cdfcf3d458a541d731d`;
       let info = await fetch(url);
       let data = await info.json();
+      console.log(data)
 
       const { temp, humidity, pressure } = data.main;
       const { main: weathercondi } = data.weather[0];
@@ -29,12 +30,13 @@ const WeatherReport = () => {
       };
       setinfo(infodata);
     } catch (error) {
+      alert('Please write the city name')
       // <h1>Something went Wrong</h1>;
     }
   };
   useEffect(() => {
     getinfo();
-    // eslint-disable-next-line
+  // eslint-disable-next-line
   }, []);
   return (
     <div className="boss">

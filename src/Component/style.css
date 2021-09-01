@@ -1,11 +1,10 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
 
 .boss {
-  padding: 20px;
-  margin: 20px;
+  margin:  auto;
   background-color: grey;
   display: table;
   align-items:center;
+  padding: 10px;
 }
 .datainfo1 {
   background-color: whitesmoke;
