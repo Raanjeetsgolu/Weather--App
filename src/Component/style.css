@@ -26,6 +26,7 @@
   border-radius: 50px 50px 50px 50px;
   border:none;
   font-size: 20px;
+   outline-width: 0;
 }
 .btn {
   background-color: red;
