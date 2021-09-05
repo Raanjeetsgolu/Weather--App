@@ -24,6 +24,7 @@
 .invalue {
   height: 40px;
   border-radius: 50px 50px 50px 50px;
+  border:none;
   font-size: 20px;
 }
 .btn {
